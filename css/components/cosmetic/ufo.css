@@ -1,0 +1,55 @@
+.ufo{
+  position:absolute;
+  top:30%;
+  left:15%;
+  animation: ufo-flight 7s infinite;
+  z-index: 2;
+}
+.ufo__body {
+  position:absolute;
+  background: grey;
+  top:10px;
+  width: 40px;
+  height: 20px;
+  border-radius: 20px / 10px;
+  box-shadow: inset -3px -3px 0 rgba(0,0,0,.2);
+}
+
+.ufo__cockpit {
+  position:absolute;
+  width: 20px;
+  height: 20px;
+  left:10px;
+  top:3px;
+  background: #abd8ea;
+  border-radius: 10px;
+  box-shadow: inset -3px 2px 0 rgba(0,0,0,.2);
+}
+
+@keyframes ufo-flight {
+  0% {
+    top:35%;
+    left: -50px;
+    animation-timing-function: ease;
+  }
+  50% {
+    top:40%;
+    left: 50%;
+    animation-timing-function: ease;
+  }
+  65% {
+    top:43%;
+    left: 30%;
+    animation-timing-function: ease;
+  }
+   75% {
+    top:40%;
+    left: 100%;
+    animation-timing-function: ease;
+  }
+  100% {
+   top:41%;
+   left: -50px;
+   animation-timing-function: ease;
+ }
+}

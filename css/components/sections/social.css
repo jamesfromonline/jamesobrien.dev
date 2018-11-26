@@ -1,0 +1,52 @@
+/* Social */
+#social {
+	opacity: 0;
+}
+
+#social .section__container p {
+	font-size: 40px;
+	font-family: "Space Mono", sans-serif;
+	font-weight: 400;
+	letter-spacing: -1px;
+}
+
+#social .section__container p:first-of-type {
+	margin-bottom: 40px;
+}
+
+#social .section__container p a {
+	color: #f5f5f5;
+	border-bottom: 4px solid #f5f5f5;
+	text-decoration: none;
+	transition: all .2s ease, border .2s ease;
+}
+
+#social .section__container p a:hover {
+	color: #17dcff;
+	border-bottom: 4px solid #17dcff;
+	cursor: pointer;
+}
+
+.social__wrapper {
+	width: 100%;
+}
+
+.social__wrapper a {
+	font-size: 5em;
+	color: #fff;
+	transition: color 0.2s ease;
+}
+
+.social__wrapper a:first-child {
+	padding-right: 15px;
+}
+
+.social__wrapper a:first-child:hover,
+.social__wrapper a:first-child:focus {
+	color: #1da1f2;
+}
+
+.social__wrapper a:nth-child(2):hover,
+.social__wrapper a:nth-child(2):focus {
+	color: #6e5494;
+}

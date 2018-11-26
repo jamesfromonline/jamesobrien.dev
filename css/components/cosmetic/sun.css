@@ -1,0 +1,20 @@
+.sun__wrapper {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	overflow-y: hidden;
+	padding-top: 70px;
+}
+
+.sun {
+	width: 300px;
+	height: 150px;
+	border-top-left-radius: 600px;
+  border-top-right-radius: 600px;
+	box-shadow: 0 0 7rem #eabe7d;
+	background: linear-gradient(to bottom, rgb(252, 229, 15) 0%, rgb(255, 130, 0) 100%);
+	overflow: hidden;
+}
