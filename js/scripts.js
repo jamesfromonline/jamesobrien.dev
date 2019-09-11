@@ -1,4 +1,5 @@
 const loader = document.querySelector("#loader")
+const body = document.querySelector("body")
 const app = document.querySelector("#app")
 const logo = document.querySelector("#logo")
 const about = document.getElementById("about")
@@ -8,11 +9,14 @@ const social = document.getElementById("social")
 let { aboutInactive, projectsInactive, currentInactive, socialInactive } = false
 
 document.addEventListener("DOMContentLoaded", () => {
+  window.scrollTo(0, 0)
+  body.classList.add("app__no-scroll")
   setTimeout(() => {
     loader.classList.add("fade--out")
     app.classList.remove("app__no-scroll")
     logo.classList.remove("remove")
     logo.classList.add("fade--in")
+    body.classList.remove("app__no-scroll")
     setTimeout(() => {
       loader.classList.add("remove")
       logo.classList.remove("hide")

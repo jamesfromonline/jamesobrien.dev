@@ -11,6 +11,7 @@
 @import 'components/sections/social.css';
 @import 'components/loader.css';
 
+
 body {
 	display: flex;
 	flex-direction: column;
@@ -21,6 +22,11 @@ body {
 	overflow-x: hidden;
 	background: #111;
 	position: relative;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
 }
 
 .app__wrapper {
@@ -111,7 +117,7 @@ section, header {
 
 .app__no-scroll {
 	/* max-height: 100vh; */
-	overflow: hidden;
+	overflow: hidden !important;
 }
 
 .link--resume {
