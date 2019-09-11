@@ -81,3 +81,24 @@
 	transition: all .5s ease;
 	border-bottom: 4px solid transparent;
 }
+
+.about__img-container {
+	max-height: 300px;
+	overflow: hidden;
+	transform: skew(-5deg);
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.about__img {
+	padding-top: 120px;
+	width: 100%;
+	transform: skew(5deg);
+}
+
+@media (max-width: 768px) {
+	.about__img {
+		width: 95%;
+	}
+}
