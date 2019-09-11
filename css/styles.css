@@ -45,13 +45,11 @@ body {
 }
 
 h1 {
-    /* width: 100vw; */
     font-size: 17vw;
     font-family: "Archivo Black";
     line-height: 0.8em;
     color: #f7f7f7;
     text-align: left;
-    /* margin: 0.4em; */
     padding: 0 0 0 15px;
     text-transform: uppercase;
     -webkit-mask-image: url('http://f.cl.ly/items/131E0X1b1i0X1s263R00/a.png');
@@ -98,18 +96,21 @@ section, header {
 }
 
 /* Logo */
+
 #logo {
 	position: absolute;
-	left: 7%;
-	top: 7%;
 }
 
 .remove {
 	display: none;
 }
 
+.hide {
+	opacity: 0;
+}
+
 .app__no-scroll {
-	max-height: 100vh;
+	/* max-height: 100vh; */
 	overflow: hidden;
 }
 
@@ -183,4 +184,9 @@ section, header {
 	to {
 	  transform: translateY(-2000px);
 	}
+  }
+
+
+  .fade-in--delay {
+	  animation-delay: 1s;
   }
