@@ -17,8 +17,6 @@
 	right: 0;
 	margin: auto;
 	bottom: -160px;
-	/* background: #ffb058;
-	/* background: linear-gradient(to bottom, #ffca58 0%, #ffb058 100%); */
 	background: linear-gradient(187deg, #ffb058, #ffcf58, #ffde58);
 	background-size: 600% 600%;
 	border-radius: 50%;
@@ -54,7 +52,7 @@
   @media (min-width: 767px) {
 
 	.sun__wrapper {
-		padding-top: 455px;
+		padding-top: 278px;
 	}
 
 	.sun {
