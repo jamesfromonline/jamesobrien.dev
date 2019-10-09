@@ -43,10 +43,15 @@
 
 .social__wrapper a:first-child:hover,
 .social__wrapper a:first-child:focus {
-	color: #1da1f2;
+	color: #6e5494;
 }
 
 .social__wrapper a:nth-child(2):hover,
 .social__wrapper a:nth-child(2):focus {
-	color: #6e5494;
+	color: #ae63e4;
+}
+
+.social__wrapper a:nth-child(3):hover,
+.social__wrapper a:nth-child(3):focus {
+	color: #00a0dc;
 }
