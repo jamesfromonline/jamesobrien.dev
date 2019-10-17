@@ -42,13 +42,14 @@
 	font-weight: 300;
 }
 
-.coincab .project__title:hover {
+.stellr .project__title:hover {
 	transform: rotate(-1deg) scale(1.05);
 }
 
-.journaler .project__title:hover {
+.coincab .project__title:hover {
 	transform: rotate(1deg) scale(1.05);
 }
+
 
 .colors .project__title:hover {
 	transform: rotate(-1deg) scale(1.05);
